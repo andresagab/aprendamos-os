@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // import components used by each route
 
-// define router
+// define component
 const Router = () => {
     
     return (
