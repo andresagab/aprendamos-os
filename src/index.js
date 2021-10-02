@@ -6,6 +6,8 @@ import './index.css';
 
 // import components
 import Router from "./Router";
+import Header from './components/Common/Header/Header';
+import Footer from './components/Common/Footer/Footer';
 
 // i don´t know it is
 import reportWebVitals from './reportWebVitals';
@@ -15,7 +17,9 @@ const Root = () => {
   
   return (
     <div>
+        <Header/>
         <Router/>
+        <Footer/>
     </div>
   )
 
