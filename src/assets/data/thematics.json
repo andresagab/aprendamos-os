@@ -1,0 +1,122 @@
+[
+    {
+        "slug": "sistemas-operativos",
+        "img": "#",
+        "title": "Sistemas Operativos",
+        "description": "Identifico la definición de sistemas operativos por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
+        "route": "/temas/sistemas-operativos",
+        "status": false,
+        "subtopics": [
+            {
+                "id": 1,
+                "slug": "definicion-so",
+                "img": "#",
+                "title": "Definición de sistemas operativos",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "route": "/temas/sistemas-operativos/definicion-so",
+                "resources": [
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    },
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "slug": "para-que-so-pc",
+                "img": "#",
+                "title": "¿Para qué sirven los sistemas operativos de computadoras personales?",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "route": "/temas/sistemas-operativos/para-que-so-pc",
+                "resources": [
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    },
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "slug": "para-que-so-movil",
+                "img": "#",
+                "title": "¿Para qué sirven los sistemas operativos de dispositivos móviles?",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "route": "/temas/sistemas-operativos/para-que-so-moviles",
+                "resources": [
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    },
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "caracteristicas-basicas",
+        "img": "#",
+        "title": "Características básicas de la interfaz gráfica de los sistemas operativos",
+        "description": "Reconozco las características básicas de la interfaz gráfica de los sistemas operativos.",
+        "route": "/temas/caracteristicas-so",
+        "status": false,
+        "subtopics": [
+            {
+                "id": 4,
+                "slug": "ui-computadoras-personales",
+                "img": "#",
+                "title": "Características básicas de la interfaz gráfica de los sistemas operativos de computadoras personales",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "route": "/temas/caracteristicas-so/ui-computadoras-personales",
+                "resources": [
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    },
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "slug": "ui-dispositivos-moviles",
+                "img": "#",
+                "title": "Características básicas de la interfaz gráfica de los sistemas operativos de dispositivos móviles",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "route": "/temas/caracteristicas-so/ui-dispositivos-moviles",
+                "resources": [
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    },
+                    {
+                        "name": "xyz",
+                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "resource_path": "#"
+                    }
+                ]
+            }
+        ]
+    }
+]
