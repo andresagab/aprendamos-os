@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Thematic from "./components/Thematic/Thematic";
 import AboutOf from "./components/AboutOf/AboutOf";
 import NotFound from "./components/Common/NotFound/NotFound";
+import Topic from "./components/Topic/Topic";
 
 // define component
 const Router = () => {
@@ -17,6 +18,7 @@ const Router = () => {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/temas" component={Thematic} />
                 <Route exact path="/acerca-de" component={AboutOf} />
+                <Route exact path="/temas/:tema" component={Topic} />
                 <Route component={NotFound} />
             </Switch>
             

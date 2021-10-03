@@ -74,7 +74,7 @@
         "img": "#",
         "title": "Características básicas de la interfaz gráfica de los sistemas operativos",
         "description": "Reconozco las características básicas de la interfaz gráfica de los sistemas operativos.",
-        "route": "/temas/caracteristicas-so",
+        "route": "/temas/caracteristicas-basicas",
         "status": false,
         "subtopics": [
             {
@@ -82,8 +82,8 @@
                 "slug": "ui-computadoras-personales",
                 "img": "#",
                 "title": "Características básicas de la interfaz gráfica de los sistemas operativos de computadoras personales",
-                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
-                "route": "/temas/caracteristicas-so/ui-computadoras-personales",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit.",
+                "route": "/temas/caracteristicas-basicas/ui-computadoras-personales",
                 "resources": [
                     {
                         "name": "xyz",
@@ -102,8 +102,8 @@
                 "slug": "ui-dispositivos-moviles",
                 "img": "#",
                 "title": "Características básicas de la interfaz gráfica de los sistemas operativos de dispositivos móviles",
-                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
-                "route": "/temas/caracteristicas-so/ui-dispositivos-moviles",
+                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit.",
+                "route": "/temas/caracteristicas-basicas/ui-dispositivos-moviles",
                 "resources": [
                     {
                         "name": "xyz",
