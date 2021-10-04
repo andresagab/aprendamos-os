@@ -13,7 +13,7 @@ const Subtopic = () => {
 
     return(
 
-        <div className="flex h-auto bg-gray-50 py-20">
+        <div className="flex h-full bg-gray-50 py-20">
             {
                 thematics.filter(item => item.slug === params.tema).map((item) => (
 

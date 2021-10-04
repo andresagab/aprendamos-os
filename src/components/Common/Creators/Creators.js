@@ -4,7 +4,7 @@ import React from "react";
 import Creator from "./Creator";
 
 //const Creators = () =>
-const Creators = ({title, description, creators}) =>
+const Creators = ({title, description, creatorsData}) =>
 {
     return (
 
@@ -12,8 +12,11 @@ const Creators = ({title, description, creators}) =>
             <h3 className="font-semibold text-3xl text-center">{title}</h3>
             <p className="font-normal text-sm text-center">{description}</p>
             <div className="flex flex-row m-auto items-center space-x-8">
-                <Creator/>
-                <Creator/>
+                {
+                    creatorsData.map((item, index) => (
+                        <Creator key={index} creator={item}/>
+                    ))
+                }
             </div>
         </div>
 

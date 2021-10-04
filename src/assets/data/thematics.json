@@ -56,7 +56,12 @@
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
-                ]
+                ],
+                "activity": {
+                    "title": "Title Activity",
+                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
+                    "url": "#"
+                }
             },
             {
                 "id": 3,
@@ -79,7 +84,12 @@
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
-                ]
+                ],
+                "activity": {
+                    "title": "Title Activity",
+                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
+                    "url": "#"
+                }
             }
         ]
     },
@@ -97,6 +107,7 @@
                 "img": "#",
                 "title": "Características básicas de la interfaz gráfica de los sistemas operativos de computadoras personales",
                 "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit.",
+                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/caracteristicas-basicas/ui-computadoras-personales",
                 "resources": [
                     {
@@ -109,7 +120,12 @@
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
-                ]
+                ],
+                "activity": {
+                    "title": "Title Activity",
+                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
+                    "url": "#"
+                }
             },
             {
                 "id": 5,
@@ -117,6 +133,7 @@
                 "img": "#",
                 "title": "Características básicas de la interfaz gráfica de los sistemas operativos de dispositivos móviles",
                 "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit.",
+                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/caracteristicas-basicas/ui-dispositivos-moviles",
                 "resources": [
                     {
@@ -129,7 +146,12 @@
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
-                ]
+                ],
+                "activity": {
+                    "title": "Title Activity",
+                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
+                    "url": "#"
+                }
             }
         ]
     }

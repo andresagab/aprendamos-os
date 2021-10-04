@@ -12,7 +12,7 @@ const Thematic = () => {
 
     return (
 
-        <div className="flex h-auto bg-gray-50 py-20">
+        <div className="flex lg:h-full 2xl:h-screen bg-gray-50 py-20">
 
             <div className="m-auto px-8 lg:px-0 lg:w-3/6 flex flex-col space-y-8 text-center">
                 <h3 className="font-semibold text-6xl text-blue-500">TEMÁTICAS</h3>
