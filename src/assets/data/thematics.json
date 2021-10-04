@@ -28,7 +28,12 @@
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
-                ]
+                ],
+                "activity": {
+                    "title": "Title Activity",
+                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
+                    "url": "#"
+                }
             },
             {
                 "id": 2,
