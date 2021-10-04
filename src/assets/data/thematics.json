@@ -13,15 +13,18 @@
                 "img": "#",
                 "title": "Definición de sistemas operativos",
                 "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/sistemas-operativos/definicion-so",
                 "resources": [
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     },
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
@@ -33,15 +36,18 @@
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de computadoras personales?",
                 "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/sistemas-operativos/para-que-so-pc",
                 "resources": [
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     },
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }
@@ -49,19 +55,22 @@
             },
             {
                 "id": 3,
-                "slug": "para-que-so-movil",
+                "slug": "para-que-so-moviles",
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de dispositivos móviles?",
                 "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/sistemas-operativos/para-que-so-moviles",
                 "resources": [
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     },
                     {
-                        "name": "xyz",
+                        "name": "resource name",
+                        "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
                         "resource_path": "#"
                     }

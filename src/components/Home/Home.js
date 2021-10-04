@@ -9,7 +9,7 @@ class Home extends React.Component {
 
                 <div class="m-auto px-8 lg:px-0 lg:w-3/6 flex flex-col space-y-4 text-center">
                     <h3 class="font-semibold text-6xl">APRENDAMOS DE SO</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Estimados estudiantes les damos la bienvenida a la aplicación web AprendamosDeSO, espacio donde aprenderá aspectos relacionados con el significado de sistemas operativos, para qué sirven los sistemas operativos de computadoras y dispositivos móviles, y por último encontrará, características básicas de la interfaz gráfica en sistemas operativos de computadoras y dispositivos móviles. Esperamos que sea de su agrado y utilidad!</p>
                     <button class="mt-8 px-4 py-2 rounded-full bg-green-500 text-white hover:bg-green-700 transition duration-300 ease select-all w-40 self-center">Empezar</button>
                 </div>
 

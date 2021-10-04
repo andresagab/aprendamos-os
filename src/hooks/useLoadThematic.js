@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // assets data
 import data from '../assets/data/thematics.json';

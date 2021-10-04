@@ -3,7 +3,7 @@ import React from "react";
 class Header extends React.Component {
     render() {
         return (
-            <nav className="fixed w-full">
+            <nav className="fixed w-full bg-white shadow-sm">
                 <div className="flex flex-row p-4">
                     <div className="flex-grow">AprendamosDeSO</div>
                     <div className="flex space-x-6">
