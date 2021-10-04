@@ -6,7 +6,7 @@ const ThematicCard = ({thematic}) => {
     return (
 
         <div className="flex flex-col w-1/3 rounded-md shadow-lg hover:shadow-2xl transition duration-500 ease select-none bg-white">
-            <img src={thematic.img} className="w-full h-40 bg-gray-300" alt=""/>
+            <img src={process.env.PUBLIC_URL + require('./../../../assets/img/everyone/' + thematic.img).default} className="w-full h-auto bg-gray-300" alt=""/>
             <div className="flex flex-col p-4 space-y-6">
                 <h3 className="font-semibold text-left tex-md">{thematic.title}</h3>
                 <p className="font-normal text-sm text-left">{thematic.description}</p>
