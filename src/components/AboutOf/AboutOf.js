@@ -7,6 +7,7 @@ import Creators from "../Common/Creators/Creators";
 // assets
 import dataAuthors from "../../assets/data/authors.json";
 import dataCollaborators from "../../assets/data/collaborators.json";
+import imgBackground from "../../assets/img/main/background-A.jpg";
 
 const AboutOf = () =>
 {
@@ -16,7 +17,7 @@ const AboutOf = () =>
 
     return (
 
-        <div className="flex h-auto bg-gray-50 py-20">
+        <div className="flex h-auto bg-gray-50 py-20" style={{backgroundImage: `url(${imgBackground})`}}>
 
             <div className="m-auto space-y-8">
                 <AppInfo/>

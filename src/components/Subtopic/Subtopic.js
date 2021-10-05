@@ -8,6 +8,7 @@ import SubtopicCard from "../Common/SubtopicCard/SubtopicCard";
 // assets
 import data from "../../assets/data/thematics.json";
 import imgBackground from "../../assets/img/main/background-A.jpg";
+import BackButton from "../Common/BackButton/BackButton";
 
 const Subtopic = () => {
 
@@ -24,6 +25,7 @@ const Subtopic = () => {
     
                         <div key="subtopic.slug" className="flex flex-col space-y-10 p-6 w-full">
                             <h3 className="font-semibold text-5xl text-blue-900 uppercase">{item.title}</h3>
+                            <BackButton route={"/temas/" + params.tema}/>
                             <SubtopicCard subtopic={subtopic}/>
                             <ActivityCard activity={subtopic.activity}/>
                         </div>
