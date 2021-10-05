@@ -44,23 +44,23 @@
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de computadoras personales?",
                 "description": "Comprendo para qué sirven los sistemas operativos de computadoras personales a través de la aplicación web, utilizando los recursos multimedia y resolviendo la actividad planteada.",
-                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
+                "long_explanation": "Los sistemas operativos de computadoras se encargan de administrar muchas cosas, tales como: el uso de la memoria RAM de cada programa, el rendimiento del procesador, el funcionamiento del teclado, mouse y periféricos, y responder ante los requerimientos del usuario en tiempo real.",
                 "route": "/temas/sistemas-operativos/para-que-so-pc",
                 "status": true,
                 "resources": [
                     {
                         "name": "Poster",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "type": 0,
-                        "resource_path": "#"
+                        "description": "Poster que nos informa para que sirven los sistemas operativos en computadoras personales",
+                        "type": 1,
+                        "resource_path": "so_pc.png"
                     },
                     {
                         "name": "Video",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de computadoras personales?",
                         "type": 2,
-                        "resource_path": "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEr5VZ66pg&#x2F;watch?embed"
+                        "resource_path": "https://www.youtube.com/embed/Q8urnt34PI0"
                     }
                 ],
                 "activity": {
@@ -75,23 +75,23 @@
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de dispositivos móviles?",
                 "description": "Comprendo para qué sirven los sistemas operativos de dispositivos móviles, utilizando los recursos multimedia alojados en la aplicación web y resuelvo la actividad planteada.",
-                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
+                "long_explanation": "Un sistema operativo para móviles es un conjunto de programas y órdenes capaces de ejecutarse sobre el hardware del dispositivo para satisfacer las necesidades del usuario. En los teléfonos móviles, estas suelen ser de conexión a la red, por lo que el SO móvil está muy orientado a la conectividad inalámbrica. Esto lo consigue gestionando la memoria y cargando nuevos programas. Además, el sistema operativo es la parte del dispositivo que permite interactuar y darle órdenes al teléfono. Su principal tarea es administrar tareas y recursos del dispositivo, coordinar las tareas de software en base al hardware y organizar los archivos en directorios. Es, por tanto, un intermediario entre usuario y hardware.",
                 "route": "/temas/sistemas-operativos/para-que-so-moviles",
                 "status": true,
                 "resources": [
                     {
                         "name": "Poster",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "type": 0,
-                        "resource_path": "infografia-definicion-so.png"
+                        "description": "Poster que nos informa para que sirven los sistemas operativos en dispositivos móviles",
+                        "type": 1,
+                        "resource_path": "so_moviles.png"
                     },
                     {
                         "name": "Video",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de dispositivos móviles?",
                         "type": 2,
-                        "resource_path": "https://www.youtube.com/embed/8KuVE5JN8JQ"
+                        "resource_path": "https://www.youtube.com/embed/0dX0FEC7KI4"
                     }
                 ],
                 "activity": {

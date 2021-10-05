@@ -6,7 +6,7 @@ const ResourceLoader = ({resource}) => {
         
         return(
             
-            <img src={process.env.PUBLIC_URL + require('./../../../assets/img/material/' + resource.resource_path).default} className="w-auto h-full object-cover rounded-md" alt={resource.name} />
+            <img src={process.env.PUBLIC_URL + require('./../../../assets/img/material/' + resource.resource_path).default} className="w-max h-1/2 object-cover rounded-md" alt={resource.name} />
     
         )
 

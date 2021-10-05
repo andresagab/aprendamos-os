@@ -1,11 +1,12 @@
 import React from "react";
 import { useParams } from "react-router";
 
-// assets
-import data from "../../assets/data/thematics.json";
-
 // components
 import ThematicCard from "../Common/ThematicCard/ThematicCard";
+
+// assets
+import data from "../../assets/data/thematics.json";
+import imgBackground from "../../assets/img/main/background-A.jpg";
 
 const Thematic = () => {
 
@@ -14,7 +15,7 @@ const Thematic = () => {
 
     return (
 
-        <div className="flex h-screen bg-gray-50">
+        <div className="flex h-screen bg-gray-50" style={{backgroundImage: `url(${imgBackground})`}}>
             {
                 thematics.filter(item => item.slug === params.tema).map((item) => (
 
