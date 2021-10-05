@@ -21,9 +21,9 @@ const AboutOf = () =>
             <div className="m-auto space-y-8">
                 <AppInfo/>
                 {/* Authors */}
-                <Creators title="Autores" description="Magna ad voluptate magna labore ullamco magna est nisi eiusmod minim labore. Amet ullamco duis ipsum voluptate dolor tempor ex officia sint est. Nisi consequat esse adipisicing in ullamco occaecat occaecat occaecat cupidatat ullamco veniam adipisicing. Officia aliqua qui est cupidatat elit mollit. Amet sit quis Lorem cillum sunt esse cillum et ut eiusmod nostrud. Irure elit laborum proident voluptate et enim dolor anim anim. Adipisicing sint laboris irure minim eiusmod cillum occaecat enim ut minim." creatorsData={authors}/>
+                <Creators title="Autores" description="Es de nuestro agrado compartirles la información de contacto de los autores del software educativo AprendamosDeSO, estas personas se encargaron de estudiar las unidades presentadas en esta aplicación con el objetivo de diseñar el contenido de temático que es abarcado en cada sección de la aplicación, todos los recursos multimedia y de software son autoría de las siguientes personas:" creatorsData={authors}/>
                 {/* Collaborators */}
-                <Creators title="Colaboradores" description="Magna ad voluptate magna labore ullamco magna est nisi eiusmod minim labore. Amet ullamco duis ipsum voluptate dolor tempor ex officia sint est. Nisi consequat esse adipisicing in ullamco occaecat occaecat occaecat cupidatat ullamco veniam adipisicing. Officia aliqua qui est cupidatat elit mollit. Amet sit quis Lorem cillum sunt esse cillum et ut eiusmod nostrud. Irure elit laborum proident voluptate et enim dolor anim anim. Adipisicing sint laboris irure minim eiusmod cillum occaecat enim ut minim." creatorsData={collaborators}/>
+                <Creators title="Colaboradores" description="En esta sección te compartimos la información de contacto correspondiente a los colaboradores en el desarrollo de este software educativo, cada integrante presentado a continuación tuvo una gran relevancia en el desarrollo de la aplicación web:" creatorsData={collaborators}/>
             </div>
 
         </div>

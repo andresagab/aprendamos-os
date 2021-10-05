@@ -12,8 +12,8 @@ const SubtopicCard = ({subtopic}) => {
             </div>
             <div className="border-l pl-14 flex flex-col space-y-8">
                 {
-                    subtopic.resources.map((item) => (
-                        <ResourceSubtopic resource={item}/>
+                    subtopic.resources.map((item, index) => (
+                        <ResourceSubtopic key={index} resource={item}/>
                     ))
                 }
             </div>

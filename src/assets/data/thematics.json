@@ -5,28 +5,31 @@
         "title": "Sistemas Operativos",
         "description": "Identifico la definición de sistemas operativos por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
         "route": "/temas/sistemas-operativos",
-        "status": false,
+        "status": true,
         "subtopics": [
             {
                 "id": 1,
                 "slug": "definicion-so",
                 "img": "#",
                 "title": "Definición de sistemas operativos",
-                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
-                "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
+                "description": "Identifico la definición de sistemas operativos por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
+                "long_explanation": "Un sistema operativo es el software o programa más importante que se ejecuta en un computador, nos permite usarlo y darle órdenes para que haga lo que necesitamos. Son importantes, porque te permiten interactuar y darle órdenes al computador. Sin un sistema operativo el computador es inútil. Sin el sistema operativo, no tendrías la plataforma que soporta los programas que te permiten hacer cartas, escuchar música, navegar por internet o enviar un correo electrónico.",
                 "route": "/temas/sistemas-operativos/definicion-so",
+                "status": true,
                 "resources": [
                     {
-                        "name": "resource name",
+                        "name": "Infografía",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "resource_path": "#"
+                        "description": "Infografía para conocer más sobre la definición de sistemas operativos",
+                        "type": 1,
+                        "resource_path": "Infografia_sistemas_operativos.png"
                     },
                     {
-                        "name": "resource name",
+                        "name": "Video",
                         "img": "#",
-                        "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "resource_path": "#"
+                        "description": "Video corto para refozar la definición de sistemas operativos",
+                        "type": 2,
+                        "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
@@ -40,21 +43,24 @@
                 "slug": "para-que-so-pc",
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de computadoras personales?",
-                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "description": "Comprendo para qué sirven los sistemas operativos de computadoras personales a través de la aplicación web, utilizando los recursos multimedia y resolviendo la actividad planteada.",
                 "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/sistemas-operativos/para-que-so-pc",
+                "status": true,
                 "resources": [
                     {
-                        "name": "resource name",
+                        "name": "Poster",
                         "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
+                        "type": 0,
                         "resource_path": "#"
                     },
                     {
-                        "name": "resource name",
+                        "name": "Video",
                         "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "resource_path": "#"
+                        "type": 2,
+                        "resource_path": "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEr5VZ66pg&#x2F;watch?embed"
                     }
                 ],
                 "activity": {
@@ -68,21 +74,24 @@
                 "slug": "para-que-so-moviles",
                 "img": "#",
                 "title": "¿Para qué sirven los sistemas operativos de dispositivos móviles?",
-                "description": "Sint voluptate excepteur id aliquip esse aliquip quis irure enim velit mollit eiusmod velit. Eu veniam laboris exercitation consequat nulla tempor est proident dolore aliquip.",
+                "description": "Comprendo para qué sirven los sistemas operativos de dispositivos móviles, utilizando los recursos multimedia alojados en la aplicación web y resuelvo la actividad planteada.",
                 "long_explanation": "Occaecat voluptate ea occaecat laborum nisi mollit quis eu laborum. Adipisicing enim do aliqua Lorem id culpa ipsum nostrud ut cillum deserunt ex non. Ut duis Lorem veniam Lorem anim excepteur veniam consectetur. Enim elit deserunt esse adipisicing ullamco qui culpa deserunt occaecat minim aliquip ipsum.Laborum velit consequat aliqua incididunt adipisicing reprehenderit sit id consequat adipisicing. Laboris sint elit nisi dolore labore labore. Adipisicing veniam aliqua consectetur incididunt qui adipisicing laboris id ea ex irure deserunt culpa. Et sit deserunt nostrud anim irure. Voluptate cupidatat incididunt sit ut voluptate incididunt minim esse sit ipsum. Ipsum commodo minim aute nostrud esse aute dolore quis minim consectetur commodo id sunt veniam.",
                 "route": "/temas/sistemas-operativos/para-que-so-moviles",
+                "status": true,
                 "resources": [
                     {
-                        "name": "resource name",
+                        "name": "Poster",
                         "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "resource_path": "#"
+                        "type": 0,
+                        "resource_path": "infografia-definicion-so.png"
                     },
                     {
-                        "name": "resource name",
+                        "name": "Video",
                         "img": "#",
                         "description": "Dolor id labore et qui dolore labore consectetur amet commodo aute veniam cillum elit.",
-                        "resource_path": "#"
+                        "type": 2,
+                        "resource_path": "https://www.youtube.com/embed/8KuVE5JN8JQ"
                     }
                 ],
                 "activity": {
