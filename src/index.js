@@ -7,6 +7,9 @@ import './index.css';
 // import components
 import Router from "./Router";
 
+// assets
+import imgBackground from "./assets/img/main/home-background.jpg";
+
 // i don´t know it is
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +17,7 @@ import reportWebVitals from './reportWebVitals';
 const Root = () => {
   
   return (
-    <div>
+    <div className="flex flex-col w-full h-screen bg-gray-100" style={{backgroundImage: `url(${imgBackground})`}}>
         <Router/>
     </div>
   )
