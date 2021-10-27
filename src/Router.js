@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 
 // import components used by each route
 import Home from "./components/Home/Home";
@@ -13,18 +13,20 @@ import Subtopic from "./components/Subtopic/Subtopic";
 const Router = () => {
     
     return (
-        <BrowserRouter>
+        <HashRouter>
+            {/*<BrowserRouter>*/}
 
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/temas" component={Thematic} />
-                <Route exact path="/acerca-de" component={AboutOf} />
-                <Route exact path="/temas/:tema" component={Topic} />
-                <Route exact path="/temas/:tema/:subtema" component={Subtopic} />
-                <Route component={NotFound} />
-            </Switch>
-            
-        </BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/temas" component={Thematic} />
+                    <Route exact path="/acerca-de" component={AboutOf} />
+                    <Route exact path="/temas/:tema" component={Topic} />
+                    <Route exact path="/temas/:tema/:subtema" component={Subtopic} />
+                    <Route component={NotFound} />
+                </Switch>
+                
+            {/*</BrowserRouter>*/}
+        </HashRouter>
     );
 
 }
