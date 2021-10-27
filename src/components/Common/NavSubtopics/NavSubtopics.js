@@ -11,7 +11,7 @@ const NavSubtopics = ({subtopics}) => {
         <div className="flex flex-row bg-green-100 items-center justify-center space-x-4 p-4 shadow">
             {
                 subtopics.map((item) => (
-                    <NavLink exact to={item.route}>
+                    <NavLink exact to={item.route} key={item.slug} activeClassName="border-2 border-green-800 rounded-full shadow-md">
                         <NavButton title={item.title} color="green-500" hoverColor="green-700" textColor="green-50"/>
                     </NavLink>
                 ))
