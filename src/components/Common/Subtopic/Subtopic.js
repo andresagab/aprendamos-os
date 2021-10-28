@@ -1,5 +1,6 @@
 import React from "react";
 import NavSubtopics from "../NavSubtopics/NavSubtopics";
+import SubtopicSlider from "../SubtopicSlider/SubtopicSlider";
 import WorkArea from "../WorkArea/WorkArea";
 
 const Subtopic = ({thematic, subtopic}) => {
@@ -9,7 +10,7 @@ const Subtopic = ({thematic, subtopic}) => {
             <NavSubtopics subtopics={thematic.subtopics}/>
             {/* workarea */}
             <WorkArea>
-                <div>default data of subtopic: {subtopic.title}</div>
+                <SubtopicSlider subtopic={subtopic}/>
             </WorkArea>
         </div>
     )

@@ -30,7 +30,7 @@ const Router = () => {
                 {/* loop to show a button nav for each thematic */}
                 {
                     thematics.map((item) => (
-                        <NavLink exact to={item.route} key={item.slug} activeClassName="border-2 border-yellow-800 rounded-full shadow-md">
+                        <NavLink to={item.route} key={item.slug} activeClassName="border-2 border-yellow-800 rounded-full shadow-md">
                             <NavButton title={item.title}/>
                         </NavLink>
                     ))
