@@ -1,15 +1,18 @@
 import React from "react";
-import { HashRouter, NavLink, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 // import components used by each route
 import Home from "./components/Home/Home";
 import NotFound from "./components/Common/NotFound/NotFound";
 
-// asests
-import data from "./assets/data/thematics.json";
+// components
 import NavButton from "./components/Common/NavButton/NavButton";
 import Thematic from "./components/Common/Thematic/Thematic";
 import Subtopic from "./components/Common/Subtopic/Subtopic";
+
+// asests
+import data from "./assets/data/thematics.json";
+import icon from "./assets/img/main/icono_color.png"
 
 // define component
 const Router = () => {
@@ -21,20 +24,23 @@ const Router = () => {
 
 
             {/* navbar */}
-            <nav className="flex flex-row bg-white items-center justify-center space-x-4 p-4 shadow">
+            <nav className="flex flex-col md:flex-row bg-white items-center justify-center space-x-0 space-y-2 md:space-y-0 md:space-x-4 lg:space-x-5 p-4 shadow">
 
-                {/* default links */}
-                <NavLink exact to="/" activeClassName="border-2 border-yellow-800 rounded-full shadow-md">
-                    <NavButton title="Inicio"/>
-                </NavLink>
+                <div className="flex flex-row flex-grow items-center space-x-4 cursor-default">
+                    <img className="" src={icon} alt=""/>
+                    <h3 className="font-normal lg:text-xl">AprendamosDeSO</h3>
+                </div>
+
+                {/* home */}
+                <NavButton exact to="/" title="Inicio"/>
                 {/* loop to show a button nav for each thematic */}
                 {
                     thematics.map((item) => (
-                        <NavLink to={item.route} key={item.slug} activeClassName="border-2 border-yellow-800 rounded-full shadow-md">
-                            <NavButton title={item.title}/>
-                        </NavLink>
+                        <NavButton key={item.route} to={item.route} title={item.title}/>
                     ))
                 }
+                {/* about of */}
+                <NavButton exact to="/" title="Acerca de"/>
 
             </nav>
 

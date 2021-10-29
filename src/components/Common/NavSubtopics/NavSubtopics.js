@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 // components
 import NavButton from "./../NavButton/NavButton"
@@ -9,11 +8,10 @@ const NavSubtopics = ({subtopics}) => {
     return (
 
         <div className="flex flex-row bg-green-100 items-center justify-center space-x-4 p-4 shadow">
+            <h3 className="flex-grow font-normal lg:text-xl text-green-900">Temas:</h3>
             {
                 subtopics.map((item) => (
-                    <NavLink exact to={item.route} key={item.slug} activeClassName="border-2 border-green-800 rounded-full shadow-md">
-                        <NavButton title={item.title} color="green-500" hoverColor="green-700" textColor="green-50"/>
-                    </NavLink>
+                    <NavButton key={item.route} to={item.route} title={item.title} color="green-500" hoverColor="green-700" textColor="green-50"/>
                 ))
             }
         </div>
