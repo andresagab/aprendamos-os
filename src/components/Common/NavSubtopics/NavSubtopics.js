@@ -7,7 +7,7 @@ const NavSubtopics = ({subtopics}) => {
 
     return (
 
-        <div className="flex flex-row bg-green-100 items-center justify-center space-x-4 p-4 shadow">
+        <div className="mb-4 rounded-lg flex flex-row bg-green-100 items-center justify-center space-x-4 p-4 shadow">
             <h3 className="flex-grow font-normal lg:text-xl text-green-900">Temas:</h3>
             {
                 subtopics.map((item) => (

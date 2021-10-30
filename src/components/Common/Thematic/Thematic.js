@@ -9,7 +9,7 @@ const Thematic = ({thematic}) => {
             <NavSubtopics subtopics={thematic.subtopics}/>
             {/* workarea */}
             <WorkArea>
-                <div>default data of thematic</div>
+                <div>explicar el tema e incluir botón para comenzar</div>
             </WorkArea>
         </div>
     )

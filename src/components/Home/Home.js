@@ -9,7 +9,7 @@ class Home extends React.Component {
         return (
 
             /*<div class="bg-no-repeat bg-cover bg-center static bg-yellow-100 h-screen w-full">*/
-            <div className="flex h-screen" style={{backgroundImage: `url(${imgBackground})`}}>
+            <div className="flex h-full rounded-lg mb-4" style={{backgroundImage: `url(${imgBackground})`}}>
 
                 <div className="m-auto p-4 rounded-lg bg-opacity-90 lg:w-3/6 flex flex-col space-y-4 text-center bg-gray-100">
                     <h3 className="font-semibold text-6xl">APRENDAMOS DE SO</h3>
