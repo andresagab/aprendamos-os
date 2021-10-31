@@ -51,7 +51,7 @@ const Router = () => {
                     {/* loop to define routes to each thematic */}
                     {
                         thematics.map((item) => (
-                            <Route exact path={item.route} key={item.slug}>
+                            <Route exact path={item.route} key={item.id}>
                                 <Thematic thematic={item}/>
                             </Route>
                         ))
@@ -60,7 +60,7 @@ const Router = () => {
                     {
                         thematics.map((item) => (
                             item.subtopics.map((subitem) => (
-                                <Route exact path={subitem.route} key={subitem.slug}>
+                                <Route exact path={subitem.route} key={subitem.id}>
                                     <Subtopic thematic={item} subtopic={subitem}/>
                                 </Route>
                             ))

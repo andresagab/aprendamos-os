@@ -18,7 +18,7 @@ import reportWebVitals from './reportWebVitals';
 const Root = () => {
   
   return (
-    <div className="flex flex-col w-full h-screen bg-green-800 p-4">
+    <div className="flex flex-col w-full h-screen bg-gray-800 p-4">
         <Router/>
         <Footer/>
     </div>
