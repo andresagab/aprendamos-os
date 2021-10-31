@@ -1,34 +1,34 @@
 [
     {
-        "slug": "sistemas-operativos-pc",
-        "img": "so_main.jpeg",
-        "title": "Sistemas Operativos PC",
-        "description": "Identifico la definición de sistemas operativos de PC por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
-        "route": "/sistemas-operativos-pc",
+        "id": "1",
+        "slug": "so-pc",
+        "img": "so_pc_main.jpeg",
+        "title": "SO de Escritorio",
+        "description": "Id proident officia enim pariatur fugiat do qui excepteur ipsum minim. Labore occaecat nisi culpa do cupidatat ut incididunt proident cillum nulla ullamco anim officia. Duis ex est culpa elit proident eu occaecat qui ad eiusmod amet esse. Aliquip eu nisi pariatur eiusmod magna ut labore et in tempor. Est dolor tempor elit reprehenderit do amet nostrud eiusmod anim ad dolor. Nostrud aliquip ipsum mollit ullamco duis consectetur duis occaecat adipisicing duis in nostrud elit.",
+        "route": "/so-pc",
         "status": true,
         "subtopics": [
             {
-                "id": 1,
-                "slug": "definicion",
+                "id": 2,
+                "slug": "concepto",
                 "img": "so_def.jpg",
-                "title": "Definición",
-                "full_title": "Definición Sistemas Operativos de PC",
-                "description": "Identifico la definición de sistemas operativos por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
-                "long_explanation": "Un sistema operativo es el software o programa más importante que se ejecuta en un computador, nos permite usarlo y darle órdenes para que haga lo que necesitamos. Son importantes, porque te permiten interactuar y darle órdenes al computador. Sin un sistema operativo el computador es inútil. Sin el sistema operativo, no tendrías la plataforma que soporta los programas que te permiten hacer cartas, escuchar música, navegar por internet o enviar un correo electrónico.",
-                "route": "/sistemas-operativos-pc/definicion",
+                "title": "Concepto",
+                "full_title": "Concepto SO de Escritorio",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-pc/concepto",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
-                        "name": "Infografía",
-                        "img": "infographic.png",
-                        "description": "Infografía para conocer más sobre la definición de sistemas operativos",
+                        "name": "Poster",
+                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "Infografia_sistemas_operativos.png"
+                        "resource_path": "so_pc_concepto.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para refozar la definición de sistemas operativos",
+                        "description": "Video corto para refozar el concepto de Sistemas Operativos",
                         "type": 2,
                         "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
@@ -41,178 +41,174 @@
                 }
             },
             {
-                "id": 2,
-                "slug": "caracteristicas-ui",
-                "img": "so_computadora.jpg",
-                "title": "Características",
-                "full_title": "Características de la Interfáz Gráfica de los SO de PC",
-                "description": "Comprendo para qué sirven los sistemas operativos de computadoras personales a través de la aplicación web, utilizando los recursos multimedia y resolviendo la actividad planteada.",
-                "long_explanation": "Los sistemas operativos de computadoras se encargan de administrar muchas cosas, tales como: el uso de la memoria RAM de cada programa, el rendimiento del procesador, el funcionamiento del teclado, mouse y periféricos, y responder ante los requerimientos del usuario en tiempo real.",
-                "route": "/sistemas-operativos-pc/caracteristicas-ui",
+                "id": 3,
+                "slug": "elementos-basicos",
+                "img": "so_pc_elementos_basicos.jpg",
+                "title": "Elementos Básicos",
+                "full_title": "Elementos Básicos de SO de Escritorio",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-pc/elementos-basicos",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
                         "name": "Poster",
-                        "img": "infographic.png",
-                        "description": "Poster que nos informa para que sirven los sistemas operativos en computadoras personales",
+                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "so_pc.png"
+                        "resource_path": "so_pc_elementos_basicos.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de computadoras personales?",
+                        "description": "Video corto para refozar el concepto de Sistemas Operativos",
                         "type": 2,
-                        "resource_path": "https://www.youtube.com/embed/Q8urnt34PI0"
+                        "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
-                    "title": "Title Activity",
-                    "status": false,
-                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
-                    "url": "#"
+                    "title": "Preguntas Rápidas sobre Sistemas Operativos",
+                    "status": true,
+                    "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
                 }
             },
             {
-                "id": 3,
+                "id": 4,
                 "slug": "ejemplos",
-                "img": "so_movil.jpg",
+                "img": "so_pc_ejemplos.jpg",
                 "title": "Ejemplos",
-                "full_title": "Ejemplos de Sistemas Operativos de PC",
-                "description": "Comprendo para qué sirven los sistemas operativos de dispositivos móviles, utilizando los recursos multimedia alojados en la aplicación web y resuelvo la actividad planteada.",
-                "long_explanation": "Un sistema operativo para móviles es un conjunto de programas y órdenes capaces de ejecutarse sobre el hardware del dispositivo para satisfacer las necesidades del usuario. En los teléfonos móviles, estas suelen ser de conexión a la red, por lo que el SO móvil está muy orientado a la conectividad inalámbrica. Esto lo consigue gestionando la memoria y cargando nuevos programas. Además, el sistema operativo es la parte del dispositivo que permite interactuar y darle órdenes al teléfono. Su principal tarea es administrar tareas y recursos del dispositivo, coordinar las tareas de software en base al hardware y organizar los archivos en directorios. Es, por tanto, un intermediario entre usuario y hardware.",
-                "route": "/sistemas-operativos-pc/ejemplos",
+                "full_title": "Ejemplos de SO de Escritorio",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-pc/ejemplos",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
                         "name": "Poster",
-                        "img": "infographic.png",
-                        "description": "Poster que nos informa para que sirven los sistemas operativos en dispositivos móviles",
+                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "so_moviles.png"
+                        "resource_path": "so_pc_ejemplos.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de dispositivos móviles?",
+                        "description": "Video corto para refozar el concepto de Sistemas Operativos",
                         "type": 2,
-                        "resource_path": "https://www.youtube.com/embed/0dX0FEC7KI4"
+                        "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
-                    "title": "Title Activity",
-                    "status": false,
-                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
-                    "url": "#"
+                    "title": "Preguntas Rápidas sobre Sistemas Operativos",
+                    "status": true,
+                    "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
                 }
             }
         ]
     },
     {
-        "slug": "sistemas-operativos-movil",
-        "img": "so_main.jpeg",
-        "title": "Sistemas Operativos Móvil",
-        "description": "Identifico la definición de sistemas operativos de PC por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
-        "route": "/sistemas-operativos-movil",
+        "id": "5",
+        "slug": "so-movil",
+        "img": "so_movil_main.jpeg",
+        "title": "SO de Móviles",
+        "description": "Id proident officia enim pariatur fugiat do qui excepteur ipsum minim. Labore occaecat nisi culpa do cupidatat ut incididunt proident cillum nulla ullamco anim officia. Duis ex est culpa elit proident eu occaecat qui ad eiusmod amet esse. Aliquip eu nisi pariatur eiusmod magna ut labore et in tempor. Est dolor tempor elit reprehenderit do amet nostrud eiusmod anim ad dolor. Nostrud aliquip ipsum mollit ullamco duis consectetur duis occaecat adipisicing duis in nostrud elit.",
+        "route": "/so-movil",
         "status": true,
         "subtopics": [
             {
-                "id": 1,
-                "slug": "definicion",
-                "img": "so_def.jpg",
-                "title": "Definición",
-                "full_title": "Definición Sistemas Operativos de Dispositivos Móviles",
-                "description": "Identifico la definición de sistemas operativos por medio de recursos multimedia, dando solución a las actividades planteadas en la aplicación web.",
-                "long_explanation": "Un sistema operativo es el software o programa más importante que se ejecuta en un computador, nos permite usarlo y darle órdenes para que haga lo que necesitamos. Son importantes, porque te permiten interactuar y darle órdenes al computador. Sin un sistema operativo el computador es inútil. Sin el sistema operativo, no tendrías la plataforma que soporta los programas que te permiten hacer cartas, escuchar música, navegar por internet o enviar un correo electrónico.",
-                "route": "/sistemas-operativos-movil/definicion",
+                "id": 6,
+                "slug": "concepto",
+                "img": "so_movil_concepto.jpg",
+                "title": "Concepto",
+                "full_title": "Concepto SO de Dispositivos Móviles",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-movil/concepto",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
-                        "name": "Infografía",
-                        "img": "infographic.png",
-                        "description": "Infografía para conocer más sobre la definición de sistemas operativos",
+                        "name": "Poster",
+                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Dispositivos Móviles",
                         "type": 1,
-                        "resource_path": "Infografia_sistemas_operativos.png"
+                        "resource_path": "so_pc_concepto.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para refozar la definición de sistemas operativos",
+                        "description": "Video corto para refozar el concepto de Sistemas Operativos de Dispositivos Móviles",
                         "type": 2,
                         "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
-                    "title": "Preguntas Rápidas sobre Sistemas Operativos",
+                    "title": "Preguntas Rápidas sobre Sistemas Operativos de Dispositivos Móviles",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
                     "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
                 }
             },
             {
-                "id": 2,
-                "slug": "caracteristicas-ui",
-                "img": "so_computadora.jpg",
-                "title": "Características",
-                "full_title": "Características de la Interfáz Gráfica de los SO de Dispositivos Móviles",
-                "description": "Comprendo para qué sirven los sistemas operativos de computadoras personales a través de la aplicación web, utilizando los recursos multimedia y resolviendo la actividad planteada.",
-                "long_explanation": "Los sistemas operativos de computadoras se encargan de administrar muchas cosas, tales como: el uso de la memoria RAM de cada programa, el rendimiento del procesador, el funcionamiento del teclado, mouse y periféricos, y responder ante los requerimientos del usuario en tiempo real.",
-                "route": "/sistemas-operativos-movil/caracteristicas-ui",
+                "id": 7,
+                "slug": "elementos-basicos",
+                "img": "so_movil_elementos_basicos.jpg",
+                "title": "Elementos Básicos",
+                "full_title": "Elementos Básicos de SO de Dispositivos Móviles",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-movil/elementos-basicos",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
                         "name": "Poster",
-                        "img": "infographic.png",
-                        "description": "Poster que nos informa para que sirven los sistemas operativos en computadoras personales",
+                        "description": "Nisi magna voluptate est ullamco veniam reprehenderit cupidatat et velit ad do occaecat.",
                         "type": 1,
-                        "resource_path": "so_pc.png"
+                        "resource_path": "so_movil_elementos_basicos.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de computadoras personales?",
+                        "description": "Ipsum quis sint minim cupidatat nisi.",
                         "type": 2,
-                        "resource_path": "https://www.youtube.com/embed/Q8urnt34PI0"
+                        "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
-                    "title": "Title Activity",
-                    "status": false,
-                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
-                    "url": "#"
+                    "title": "Est ipsum ad cupidatat culpa consectetur adipisicing amet ullamco occaecat ad eiusmod enim.",
+                    "status": true,
+                    "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
                 }
             },
             {
-                "id": 3,
+                "id": 8,
                 "slug": "ejemplos",
-                "img": "so_movil.jpg",
+                "img": "so_movil_ejemplos.jpg",
                 "title": "Ejemplos",
-                "full_title": "Ejemplos de Sistemas Operativos de Dispositivos Móviles",
-                "description": "Comprendo para qué sirven los sistemas operativos de dispositivos móviles, utilizando los recursos multimedia alojados en la aplicación web y resuelvo la actividad planteada.",
-                "long_explanation": "Un sistema operativo para móviles es un conjunto de programas y órdenes capaces de ejecutarse sobre el hardware del dispositivo para satisfacer las necesidades del usuario. En los teléfonos móviles, estas suelen ser de conexión a la red, por lo que el SO móvil está muy orientado a la conectividad inalámbrica. Esto lo consigue gestionando la memoria y cargando nuevos programas. Además, el sistema operativo es la parte del dispositivo que permite interactuar y darle órdenes al teléfono. Su principal tarea es administrar tareas y recursos del dispositivo, coordinar las tareas de software en base al hardware y organizar los archivos en directorios. Es, por tanto, un intermediario entre usuario y hardware.",
-                "route": "/sistemas-operativos-movil/ejemplos",
+                "full_title": "Ejemplos de SO de Dispositivos Moviles",
+                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "route": "/so-movil/ejemplos",
                 "status": true,
+                "audio_path": "",
                 "resources": [
                     {
                         "name": "Poster",
-                        "img": "infographic.png",
-                        "description": "Poster que nos informa para que sirven los sistemas operativos en dispositivos móviles",
+                        "description": "Esse pariatur qui ad irure est magna excepteur culpa officia adipisicing sit cillum cillum.",
                         "type": 1,
-                        "resource_path": "so_moviles.png"
+                        "resource_path": "so_movil_ejemplos.png"
                     },
                     {
                         "name": "Video",
-                        "img": "movie.png",
-                        "description": "Video corto para apoyar la respuesta a la pregunta: ¿Para qué sirven los sistemas operativos de dispositivos móviles?",
+                        "description": "Irure velit sunt minim anim nostrud nostrud commodo sint commodo.",
                         "type": 2,
-                        "resource_path": "https://www.youtube.com/embed/0dX0FEC7KI4"
+                        "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
                 ],
                 "activity": {
-                    "title": "Title Activity",
-                    "status": false,
-                    "description": "Ex qui aute nostrud qui ea officia qui do do Lorem veniam esse excepteur magna. Quis commodo nulla qui voluptate fugiat velit irure exercitation consectetur elit anim ex commodo consectetur. Incididunt pariatur minim ea tempor. Ad esse consectetur magna cupidatat in reprehenderit. Lorem incididunt tempor officia aute eiusmod.",
-                    "url": "#"
+                    "title": "Preguntas Rápidas sobre ejemplos de SO de Dispositivos Móviles",
+                    "status": true,
+                    "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
                 }
             }
         ]
