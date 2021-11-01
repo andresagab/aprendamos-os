@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+// components
 import IconButton from "../IconButton/IconButton";
 import SubtopicActivity from "../SubtopicActivity/SubtopicActivity";
 import SubtopicImage from "../SubtopicImage/SubtopicImage";
@@ -6,7 +8,7 @@ import SubtopicTheory from "../SubtopicTheory/SubtopicTheory";
 //import Slider from "react-slick";
 //import "./styles.css";
 
-const SubtopicSlider = ({subtopic}) => {
+const SubtopicSlider = ({subtopic, thematic}) => {
 
     const [showTheory, setShowTheory] = useState(true);
     const [showImage, setShowImage] = useState(false);
@@ -53,10 +55,10 @@ const SubtopicSlider = ({subtopic}) => {
     return (
 
         <div className="relative flex w-full h-full">
-            <SubtopicTheory subtopic={subtopic} show={showTheory}/>
+            <SubtopicTheory subtopic={subtopic} thematic={thematic} show={showTheory}/>
             <SubtopicImage resource={subtopic.resources[0]} show={showImage}/>
             <SubtopicActivity subtopic={subtopic.activity} show={showActivity}/>
-            <div className="absolute bottom-0 w-full flex flex-row items-center justify-center space-x-2">
+            <div className="absolute bottom-0 pb-4 w-full flex flex-row items-center justify-center space-x-2">
                 <IconButton onClick={() => showElement('theory')} icon="description" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Explicación"/>
                 <IconButton onClick={() => showElement('image')} icon="image" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Imagen Descriptiva"/>
                 <IconButton onClick={() => showElement('activity')} icon="task" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Abrir Actividad"/>

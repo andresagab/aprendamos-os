@@ -1,22 +1,28 @@
 import React from "react";
 
-const SubtopicTheory = ({subtopic, show}) => {
+const SubtopicTheory = ({subtopic, thematic, show}) => {
 
     if (show) {
         
         return (
-    
-            <div className="m-auto w-full px-16">
-                <div className="flex flex-col space-y-16 items-center">
-                    <div className="flex flex-row space-x-16 items-center">
-                        <div className="flex flex-col space-y-8 items-center justify-center w-2/3">
-                            <h3 className="font-semibold text-3xl text-center uppercase text-blue-500">{subtopic.title}</h3>
-                            <p className="font-normal text-lg text-justify">{subtopic.long_explanation}</p>
-                        </div>
-                        <img src="" alt="" className="flex-grow w-32 h-32 bg-indigo-600"/>
+
+            <div className="w-full h-full">
+
+                <div className="w-full h-1/3 max-h-full mb-8 relative rounded-md">
+                    <img className="absolute object-cover w-full h-full rounded-md" src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="" />
+                    <div className="absolute w-full h-full bg-gradient-to-t from-black opacity-90"></div>
+                    <div className="absolute bottom-0 left-0 p-4 2xl:space-y-2 flex flex-col w-full">
+                        <h3 className="m-auto font-semibold text-2xl lg:text-4xl 2xl:text-5xl text-white">{thematic.long_title}</h3>
+                        <h3 className="m-auto font-normal text-xl lg:text-2xl 2xl:text-3xl text-white">{subtopic.title}</h3>
                     </div>
                 </div>
+
+                <div className="m-auto w-11/12 sm:w-10/12 md:w-2/3">
+                    <p className="font-normal text-md sm:text-lg lg:text-xl 2xl:text-2xl text-justify">{subtopic.long_explanation}</p>
+                </div>
+
             </div>
+
         )
 
     } else return null;
