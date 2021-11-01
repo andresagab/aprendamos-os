@@ -54,7 +54,7 @@ const SubtopicSlider = ({subtopic, thematic}) => {
 
     return (
 
-        <div className="relative flex w-full h-full">
+        <div className="relative flex w-full h-screen md:h-full">
             <SubtopicTheory subtopic={subtopic} thematic={thematic} show={showTheory}/>
             <SubtopicImage resource={subtopic.resources[0]} show={showImage}/>
             <SubtopicActivity subtopic={subtopic.activity} show={showActivity}/>

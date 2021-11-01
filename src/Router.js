@@ -24,7 +24,7 @@ const Router = () => {
 
 
             {/* navbar */}
-            <nav className="mb-4 rounded-lg flex flex-col md:flex-row bg-white items-center justify-center space-x-0 space-y-2 md:space-y-0 md:space-x-4 lg:space-x-5 p-4 shadow">
+            <nav className="mb-4 rounded-lg flex flex-col md:flex-row bg-white items-center justify-center space-x-0 space-y-2 md:space-y-0 md:space-x-4 lg:space-x-5 px-4 py-1 shadow-md">
 
                 <div className="flex flex-row flex-grow items-center space-x-4 cursor-default">
                     <img className="" src={icon} alt=""/>
