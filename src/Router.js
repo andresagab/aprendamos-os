@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // import components used by each route
 import Home from "./components/Home/Home";
@@ -9,11 +9,12 @@ import NotFound from "./components/Common/NotFound/NotFound";
 import NavButton from "./components/Common/NavButton/NavButton";
 import Thematic from "./components/Common/Thematic/Thematic";
 import Subtopic from "./components/Common/Subtopic/Subtopic";
+import AboutOf from "./components/AboutOf/AboutOf";
+import Evaluation from "./components/Evaluation/Evaluation";
 
 // asests
 import data from "./assets/data/thematics.json";
 import icon from "./assets/img/main/icono_color.png"
-import AboutOf from "./components/AboutOf/AboutOf";
 
 // define component
 const Router = () => {
@@ -33,7 +34,7 @@ const Router = () => {
                 </div>
 
                 {/* home */}
-                <NavButton exact to="/" title="Inicio"/>
+                <NavButton to="/home" title="Inicio"/>
                 {/* loop to show a button nav for each thematic */}
                 {
                     thematics.map((item) => (
@@ -41,16 +42,21 @@ const Router = () => {
                     ))
                 }
                 {/* about of */}
-                <NavButton exact to="/" title="Evaluación"/>
-                <NavButton exact={true} to="/acerca-de" title="Acerca de"/>
+                <NavButton exact to="/evaluacion" title="Evaluación"/>
+                <NavButton to="/acerca-de" title="Acerca de"/>
 
             </nav>
 
             {/*<BrowserRouter>*/}
 
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/">
+                        <Redirect to="/home"/>
+                    </Route>
+
+                    <Route exact path="/home" component={Home} />
                     <Route exact path="/acerca-de" component={AboutOf} />
+                    <Route exact path="/evaluacion" component={Evaluation} />
                     {/* loop to define routes to each thematic */}
                     {
                         thematics.map((item) => (
