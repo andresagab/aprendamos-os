@@ -13,6 +13,7 @@ import Subtopic from "./components/Common/Subtopic/Subtopic";
 // asests
 import data from "./assets/data/thematics.json";
 import icon from "./assets/img/main/icono_color.png"
+import AboutOf from "./components/AboutOf/AboutOf";
 
 // define component
 const Router = () => {
@@ -41,7 +42,7 @@ const Router = () => {
                 }
                 {/* about of */}
                 <NavButton exact to="/" title="Evaluación"/>
-                <NavButton exact to="/" title="Acerca de"/>
+                <NavButton exact={true} to="/acerca-de" title="Acerca de"/>
 
             </nav>
 
@@ -49,6 +50,7 @@ const Router = () => {
 
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route exact path="/acerca-de" component={AboutOf} />
                     {/* loop to define routes to each thematic */}
                     {
                         thematics.map((item) => (
