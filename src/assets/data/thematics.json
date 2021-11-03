@@ -78,7 +78,7 @@
                         "name": "Poster",
                         "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "so_pc_elementos_basicos.png"
+                        "resource_path": "so_pc_elementos.jpeg"
                     },
                     {
                         "name": "Video",
@@ -100,10 +100,31 @@
                 "img": "so_pc_ejemplos.jpg",
                 "title": "Ejemplos",
                 "full_title": "Ejemplos de SO de Escritorio",
-                "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "description": "En la actualidad existen una gran variedad de sistemas operativos de escritorio que han sido desarrollados por empresas de renombre como Microsoft y Apple, no obstante existen grupos de personas que desarrollan sistemas operativos de escritorio basados en Linux, a continuación te presentamos algunos ejemplos de sistemas operativos de escritorio:",
                 "type": 2,
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
-                "items_explanation": [],
+                "long_explanation": "En la actualidad existen una gran variedad de sistemas operativos de escritorio que han sido desarrollados por empresas como Microsoft y Apple, así mismo, grupos de personas desarrollan sistemas operativos de escritorio basados en Linux, a continuación te presentamos algunos ejemplos:",
+                "items_explanation": [
+                    {
+                        "title": "Windows 11 - Microsoft Windows",
+                        "description": "Ut tempor laborum deserunt ea esse ut velit dolor Lorem mollit commodo consectetur."
+                    },
+                    {
+                        "title": "Windows 10 - Microsoft Windows",
+                        "description": "Ut tempor laborum deserunt ea esse ut velit dolor Lorem mollit commodo consectetur."
+                    },
+                    {
+                        "title": "Mac OS X - Apple",
+                        "description": "Ut tempor laborum deserunt ea esse ut velit dolor Lorem mollit commodo consectetur."
+                    },
+                    {
+                        "title": "Linux Ubuntu",
+                        "description": "Ut tempor laborum deserunt ea esse ut velit dolor Lorem mollit commodo consectetur."
+                    },
+                    {
+                        "title": "Debian",
+                        "description": "Ut tempor laborum deserunt ea esse ut velit dolor Lorem mollit commodo consectetur."
+                    }
+                ],
                 "route": "/so-pc/ejemplos",
                 "status": true,
                 "audio_path": "",
@@ -182,7 +203,7 @@
                 "full_title": "Elementos Básicos de SO de Dispositivos Móviles",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
                 "type": 2,
-                "long_explanation": "Al igual que los SO de Escritorio, los sistemas operativos de Dispositivos Móviles se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son: El Núcleo, El Interprete, El Gestor de Archivos y La Interfaz de Usuario.",
+                "long_explanation": "Al igual que los SO de Escritorio, los sistemas operativos de Dispositivos Móviles se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son:",
                 "items_explanation": [
                     {
                         "title": "Núcleo",
@@ -209,7 +230,7 @@
                         "name": "Poster",
                         "description": "Nisi magna voluptate est ullamco veniam reprehenderit cupidatat et velit ad do occaecat.",
                         "type": 1,
-                        "resource_path": "so_movil_elementos_basicos.png"
+                        "resource_path": "so_movil_elementos.jpeg"
                     },
                     {
                         "name": "Video",
@@ -233,8 +254,29 @@
                 "full_title": "Ejemplos de SO de Dispositivos Moviles",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
                 "type": 2,
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
-                "items_explanation": [],
+                "long_explanation": "Los sistemas operativos de dispositivos móviles a lo largo del tiempo han sido desarrollados por empresas como Google, Microsoft, Apple, Nokia y BlackBerry. A continuación, te compartimos algunos ejemplos:",
+                "items_explanation": [
+                    {
+                        "title": "IOS 13 - Apple",
+                        "description": ""
+                    },
+                    {
+                        "title": "Android 12 - Google",
+                        "description": ""
+                    },
+                    {
+                        "title": "Windows Phone 8.1 - Microsoft",
+                        "description": ""
+                    },
+                    {
+                        "title": "MIUI 12 - Xaomi",
+                        "description": ""
+                    },
+                    {
+                        "title": "EMUI 11 - Huawei",
+                        "description": ""
+                    }
+                ],
                 "route": "/so-movil/ejemplos",
                 "status": true,
                 "audio_path": "",

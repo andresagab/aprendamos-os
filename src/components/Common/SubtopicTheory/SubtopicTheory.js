@@ -9,7 +9,7 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
             <div className="w-full flex flex-col space-y-0 items-start">
                 {
                     subtopic.items_explanation.map((item) => 
-                        <ul className="w-full p-1 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                        <ul className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
                             <li className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
                                 <span className="text-xl text-yellow-900">&bull;</span>
                                 <span>{item.title}</span>
