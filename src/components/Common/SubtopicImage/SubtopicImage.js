@@ -8,7 +8,7 @@ const SubtopicImage = ({resource, show}) => {
 
             <div className="w-full h-full flex flex-col lg:flex-row">
 
-                <img className="object-cover w-full lg:w-1/2 rounded-t-md lg:rounded-l-md shadow-md" src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="" />
+                <img className="object-cover w-full lg:w-1/2 rounded-t-md lg:rounded-l-md shadow-md" src={process.env.PUBLIC_URL + require('./../../../assets/img/material/' + resource.resource_path).default} alt="" />
 
                 <div className="m-0 md:m-auto w-full lg:w-1/2 p-4 md:p-16">
                     <h3 className="font-semibold text-2xl lg:text-2xl 2xl:text-3xl text-black">{resource.name}</h3>

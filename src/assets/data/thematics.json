@@ -12,11 +12,13 @@
             {
                 "id": 2,
                 "slug": "concepto",
-                "img": "so_def.jpg",
+                "img": "so_pc.jpeg",
                 "title": "Concepto",
                 "full_title": "Concepto de Sistemas Operativos de Escritorio",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "type": 1,
+                "long_explanation": "El sistema operativo es el software que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora, por eso es importante y fundamental. Se trata de programas que permiten regulan aspectos básicos del sistema, realizar tareas básicas, tales como el reconocimiento de la conexión del teclado, enviar la información a la pantalla, no perder de vista archivos y directorios en el disco, y controlar los dispositivos periféricos tales como mouse, micrófono, escáner, monitor, etc.",
+                "items_explanation": [],
                 "route": "/so-pc/concepto",
                 "status": true,
                 "audio_path": "",
@@ -25,11 +27,11 @@
                         "name": "Poster",
                         "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "so_pc_concepto.png"
+                        "resource_path": "so_pc_concepto.jpeg"
                     },
                     {
                         "name": "Video",
-                        "description": "Video corto para refozar el concepto de Sistemas Operativos",
+                        "description": "Video corto para refozar el concepto de Sistemas Operativos de Escritorio",
                         "type": 2,
                         "resource_path": "https://www.powtoon.com/embed/bUXBX2ESml8/"
                     }
@@ -48,7 +50,26 @@
                 "title": "Elementos Básicos",
                 "full_title": "Elementos Básicos de SO de Escritorio",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "type": 2,
+                "long_explanation": "Los Sistemas Operativos de Escritorio se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son: El Núcleo, El Interprete, El Gestor de Archivos y La Interfaz de Usuario.",
+                "items_explanation": [
+                    {
+                        "title": "Núcleo",
+                        "description": "Permite el funcionamiento en cuestiones básicas como la comunicación, entrada y salida de datos, gestión de procesos y la memoria, entre otros."
+                    },
+                    {
+                        "title": "Interprete",
+                        "description": " Un intérprete de comandos o Shell es un programa informático que actúa como interfaz de usuario para comunicar al usuario con el sistema operativo mediante pantalla gráfica o ventana que espera órdenes escritas por el usuario con el teclado, los interpreta y los entrega al sistema operativo para su ejecución."
+                    },
+                    {
+                        "title": "Sistema de Archivos",
+                        "description": " Es la parte que permite al usuario interactuar con el ordenador. Esta interfaz puede ser gráfica, proporcionando un escritorio, ventanas y componentes gráficos para una interacción más intuitiva, o bien puede ser a través de una línea de comandos."
+                    },
+                    {
+                        "title": "Interfaz de Usuario",
+                        "description": "Es el medio por el cual una persona controla un software solicitud o dispositivo de hardware. Una buena interfaz de usuario proporciona una experiencia 'fácil de usar', lo que permite al usuario interactuar con el software o el hardware de una manera natural e intuitiva."
+                    }
+                ],
                 "route": "/so-pc/elementos-basicos",
                 "status": true,
                 "audio_path": "",
@@ -80,7 +101,9 @@
                 "title": "Ejemplos",
                 "full_title": "Ejemplos de SO de Escritorio",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "type": 2,
                 "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "items_explanation": [],
                 "route": "/so-pc/ejemplos",
                 "status": true,
                 "audio_path": "",
@@ -124,7 +147,9 @@
                 "title": "Concepto",
                 "full_title": "Concepto SO de Dispositivos Móviles",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "type": 1,
+                "long_explanation": "El Sistema Operativo de Dispositivos Móviles es quien controla a un dispositivo móvil, están orientados a la conectividad inalámbrica, formatos multimedia y diversas maneras de introducir información en ellos. Además, son un conjunto de programas y ordenes que se ejecutan en el hardware del dispositivo para satisfacer las necesidades del usuario.",
+                "items_explanation": [],
                 "route": "/so-movil/concepto",
                 "status": true,
                 "audio_path": "",
@@ -133,7 +158,7 @@
                         "name": "Poster",
                         "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Dispositivos Móviles",
                         "type": 1,
-                        "resource_path": "so_pc_concepto.png"
+                        "resource_path": "so_movil_concepto.jpeg"
                     },
                     {
                         "name": "Video",
@@ -156,7 +181,26 @@
                 "title": "Elementos Básicos",
                 "full_title": "Elementos Básicos de SO de Dispositivos Móviles",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
-                "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "type": 2,
+                "long_explanation": "Al igual que los SO de Escritorio, los sistemas operativos de Dispositivos Móviles se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son: El Núcleo, El Interprete, El Gestor de Archivos y La Interfaz de Usuario.",
+                "items_explanation": [
+                    {
+                        "title": "Núcleo",
+                        "description": "Permite el funcionamiento en cuestiones básicas como la comunicación, entrada y salida de datos, gestión de procesos y la memoria, entre otros."
+                    },
+                    {
+                        "title": "Interprete",
+                        "description": "El intérprete de comandos es el programa que recibe lo que se escribe en la terminal y lo convierte en instrucciones para el sistema operativo."
+                    },
+                    {
+                        "title": "Sistema de Archivos",
+                        "description": "Es la parte que permite al usuario interactuar con el ordenador. Esta interfaz puede ser gráfica, proporcionando un escritorio, ventanas y componentes gráficos para una interacción más intuitiva, o bien puede ser a través de una línea de comandos."
+                    },
+                    {
+                        "title": "Interfaz de Usuario",
+                        "description": "La interfaz es el mecanismo o herramienta que posibilita esta comunicación mediante la representación de un conjunto de objetos, iconos y elementos gráficos que vienen a funcionar como metáforas o símbolos de las acciones o tareas que el usuario puede realizar en la computadora."
+                    }
+                ],
                 "route": "/so-movil/elementos-basicos",
                 "status": true,
                 "audio_path": "",
@@ -188,7 +232,9 @@
                 "title": "Ejemplos",
                 "full_title": "Ejemplos de SO de Dispositivos Moviles",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
+                "type": 2,
                 "long_explanation": "Velit nulla pariatur consectetur amet cupidatat. Lorem enim exercitation incididunt anim aute sit fugiat velit enim. Occaecat magna aute occaecat amet amet aliqua excepteur. Voluptate tempor nisi id proident ipsum exercitation Lorem. Non deserunt eu nostrud eiusmod aliquip consequat. Adipisicing adipisicing do labore id sint laborum excepteur nulla laboris culpa in.",
+                "items_explanation": [],
                 "route": "/so-movil/ejemplos",
                 "status": true,
                 "audio_path": "",
