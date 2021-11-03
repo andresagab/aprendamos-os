@@ -24,11 +24,11 @@ const Router = () => {
 
 
             {/* navbar */}
-            <nav className="mb-4 rounded-lg flex flex-col md:flex-row bg-white items-center justify-center space-x-0 space-y-2 md:space-y-0 md:space-x-4 lg:space-x-5 px-4 py-1 shadow-md">
+            <nav className="mb-4 rounded-lg flex flex-col md:flex-row bg-white items-center justify-center space-x-0 space-y-2 md:space-y-0 md:space-x-2 lg:space-x-3 px-4 py-1 shadow-md">
 
                 <div className="flex flex-row flex-grow items-center space-x-4 cursor-default">
-                    <img className="" src={icon} alt=""/>
-                    <h3 className="font-normal lg:text-xl">AprendamosDeSO</h3>
+                    <img className="w-10" src={icon} alt=""/>
+                    <h3 className="font-normal lg:text-lg">AprendamosDeSO</h3>
                 </div>
 
                 {/* home */}
@@ -36,10 +36,11 @@ const Router = () => {
                 {/* loop to show a button nav for each thematic */}
                 {
                     thematics.map((item) => (
-                        <NavButton key={item.route} to={item.route} title={item.title}/>
+                        <NavButton key={item.route} to={item.route} title={item.title} color="green-500" hoverColor="green-700" textColor="green-50"/>
                     ))
                 }
                 {/* about of */}
+                <NavButton exact to="/" title="Evaluación"/>
                 <NavButton exact to="/" title="Acerca de"/>
 
             </nav>
