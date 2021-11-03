@@ -51,7 +51,7 @@
                 "full_title": "Elementos Básicos de SO de Escritorio",
                 "description": "Ea dolore exercitation dolore fugiat pariatur. Irure irure veniam enim velit nisi in ut tempor do. Non ex consequat occaecat officia do nisi est Lorem occaecat. Non ullamco nisi duis irure occaecat tempor do. Consequat qui nulla qui ut laboris nostrud. Occaecat amet proident aliqua sit.",
                 "type": 2,
-                "long_explanation": "Los Sistemas Operativos de Escritorio se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son: El Núcleo, El Interprete, El Gestor de Archivos y La Interfaz de Usuario.",
+                "long_explanation": "Los Sistemas Operativos de Escritorio se componen por una gran variedad de elementos básicos que componen al Sistema Operativo de Escritorio, estos son:",
                 "items_explanation": [
                     {
                         "title": "Núcleo",

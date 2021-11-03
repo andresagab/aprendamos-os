@@ -2,6 +2,25 @@ import React from "react";
 
 const SubtopicTheory = ({subtopic, thematic, show}) => {
 
+    let listItems = null;
+
+    if (subtopic.type === 2) {
+        listItems = (
+            <div className="w-full flex flex-col space-y-0 items-start">
+                {
+                    subtopic.items_explanation.map((item) => 
+                        <ul className="w-full p-1 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                            <li className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
+                                <span className="text-xl text-yellow-900">&bull;</span>
+                                <span>{item.title}</span>
+                            </li>
+                        </ul>
+                    )
+                }
+            </div>
+        )
+    }
+
     if (show) {
         
         return (
@@ -17,9 +36,11 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
                     </div>
                 </div>
 
-                <div className="m-auto w-11/12 sm:w-10/12 md:w-2/3">
+                <div className="m-auto w-11/12 sm:w-10/12 md:w-3/4 flex flex-col space-y-4 items-start justify-start">
                     <p className="font-normal text-md sm:text-lg lg:text-xl 2xl:text-2xl text-justify">{subtopic.long_explanation}</p>
+                    {listItems}
                 </div>
+
 
             </div>
 
