@@ -112,7 +112,7 @@
                         "name": "Poster",
                         "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
-                        "resource_path": "so_pc_ejemplos.png"
+                        "resource_path": "so_pc_ejemplos.jpg"
                     },
                     {
                         "name": "Video",
@@ -243,7 +243,7 @@
                         "name": "Poster",
                         "description": "Esse pariatur qui ad irure est magna excepteur culpa officia adipisicing sit cillum cillum.",
                         "type": 1,
-                        "resource_path": "so_movil_ejemplos.png"
+                        "resource_path": "so_movil_ejemplos.jpg"
                     },
                     {
                         "name": "Video",
