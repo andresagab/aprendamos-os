@@ -40,7 +40,8 @@
                     "title": "Preguntas Rápidas sobre Sistemas Operativos",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_pc/concepto_a/index.html"
                 }
             },
             {
@@ -91,7 +92,8 @@
                     "title": "Preguntas Rápidas sobre Sistemas Operativos",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_pc/elementos_a/index.html"
                 }
             },
             {
@@ -146,7 +148,8 @@
                     "title": "Preguntas Rápidas sobre Sistemas Operativos",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_pc/ejemplos_a/index.html"
                 }
             }
         ]

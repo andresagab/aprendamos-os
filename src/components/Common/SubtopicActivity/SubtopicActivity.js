@@ -7,8 +7,8 @@ const SubtopicActivity = ({activity, show}) => {
         return (
 
             <div className="w-full h-full p-4">
-                <div className="bg-green-100 w-full h-full flex">
-                    <span className="m-auto">Actividad Aquí</span>
+                <div className="w-full h-full flex">
+                    <iframe className="w-full" src={process.env.PUBLIC_URL + "/activities/" + activity.path}></iframe>
                 </div>
             </div>
 

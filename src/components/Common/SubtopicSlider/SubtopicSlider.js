@@ -57,7 +57,7 @@ const SubtopicSlider = ({subtopic, thematic}) => {
         <div className="relative flex w-full h-screen md:h-full">
             <SubtopicTheory subtopic={subtopic} thematic={thematic} show={showTheory}/>
             <SubtopicImage resource={subtopic.resources[0]} show={showImage}/>
-            <SubtopicActivity subtopic={subtopic.activity} show={showActivity}/>
+            <SubtopicActivity activity={subtopic.activity} show={showActivity}/>
             <div className="absolute bottom-0 pb-4 w-full flex flex-row items-center justify-center space-x-2">
                 <IconButton onClick={() => showElement('theory')} icon="description" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Explicación"/>
                 <IconButton onClick={() => showElement('image')} icon="image" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Imagen Descriptiva"/>
