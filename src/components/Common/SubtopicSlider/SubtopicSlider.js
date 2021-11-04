@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 // components
 import IconButton from "../IconButton/IconButton";
@@ -13,6 +14,17 @@ const SubtopicSlider = ({subtopic, thematic}) => {
     const [showTheory, setShowTheory] = useState(true);
     const [showImage, setShowImage] = useState(false);
     const [showActivity, setShowActivity] = useState(false);
+
+    const showAlert = ({}) => 
+    {
+        
+        Swal.fire({
+            icon: 'info',
+            title: 'Ayuda de Botones',
+            text: 'Los botones de color morado ubicados en la parte inferior de la pantalla te permiten acceder a la explicación teorica, imagen illustrativa y la actividad del subtema.'
+        });
+
+    }
 
     function showElement (element) {
 
@@ -41,17 +53,6 @@ const SubtopicSlider = ({subtopic, thematic}) => {
 
     }
 
-    /*const settings = {
-        className: "slider",
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        nextArrow: null
-    };*/
-
     return (
 
         <div className="relative flex w-full h-screen md:h-full">
@@ -62,32 +63,10 @@ const SubtopicSlider = ({subtopic, thematic}) => {
                 <IconButton onClick={() => showElement('theory')} icon="description" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Explicación"/>
                 <IconButton onClick={() => showElement('image')} icon="image" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Imagen Descriptiva"/>
                 <IconButton onClick={() => showElement('activity')} icon="task" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Abrir Actividad"/>
+                <IconButton onClick={showAlert} icon="help" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver ayuda"/>
             </div>
         </div>
 
-        /*
-        <div className="w-full h-full px-4">
-            <Slider {...settings}>
-                
-                <div className="w-full h-full">
-                    <h3>Teoria</h3>
-                </div>
-                
-                <div>   
-                    <h3>Poster</h3>
-                </div>
-                
-                <div>
-                    <h3>Video</h3>
-                </div>
-                
-                <div>
-                    <h3>Actividad</h3>
-                </div>
-
-            </Slider>
-        </div>
-        */
     )
 }
 

@@ -35,15 +35,37 @@ const AboutOf = () =>
                     <Creators title="Colaboradores" description="Magna cillum magna nostrud voluptate Lorem pariatur nisi quis exercitation ut duis commodo. Qui Lorem excepteur reprehenderit culpa ad nostrud incididunt. Laborum in aliqua anim commodo anim voluptate enim et occaecat qui pariatur elit duis consequat." creatorsData={collaborators}/>
 
                     {/* help info */}
-                    <div className="flex-shrink flex flex-row items-center space-x-2 w-full h-max bg-white rounded-lg p-4">
+                    {/*<div className="flex-shrink flex flex-row items-center space-x-2 w-full h-max bg-white rounded-lg p-4">
                         <span className="flex-shrink material-icons text-purple-700">help</span>
                         <span className="flex-grow font-semibold">Ayuda</span>
                         <button className="flex-shrink px-4 py-0 rounded-full text-purple-700 hover:bg-purple-700 hover:text-purple-50 hover:shadow transition duration-300 ease select-none">Abrir</button>
-                    </div>
+                    </div>*/}
 
                     {/* help info */}
                     <div className="flex-grow w-full h-full bg-white rounded-lg p-4">
-                        Bibliografia
+                        <span className="font-semibold text-purple-700">Bibliografia</span>
+                        <div className="flex flex-col space-y-2 p-4">
+                            <ul>
+                                <li className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                                    <a href="https://concepto.de/sistema-operativo/" target="_blank" className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
+                                        <span className="text-xl text-yellow-900">&bull;</span>
+                                        <span>Sistemas Operativos de Escritorio</span>
+                                    </a>
+                                </li>
+                                <li className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                                    <a href="https://edu.gcfglobal.org/es/informatica-basica/sistemas-operativos-para-el-computador/1/" target="_blank" className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
+                                        <span className="text-xl text-yellow-900">&bull;</span>
+                                        <span>Sistemas Operativos de Escritorio</span>
+                                    </a>
+                                </li>
+                                <li className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                                    <a href="https://edu.gcfglobal.org/es/ipad/sistema-operativo-movil-ios/1/" target="_blank" className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
+                                        <span className="text-xl text-yellow-900">&bull;</span>
+                                        <span>Sistemas Operativos de Dispositivos Móviles</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

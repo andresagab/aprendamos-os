@@ -1,9 +1,22 @@
 import React from "react";
+import Swal from "sweetalert2";
+import IconButton from "../IconButton/IconButton";
 
 // components
 import NavButton from "./../NavButton/NavButton"
 
 const NavSubtopics = ({subtopics}) => {
+
+    const showAlert = ({}) => 
+    {
+        
+        Swal.fire({
+            icon: 'info',
+            title: 'Ayuda de Temas',
+            text: 'Recuerda que el panel superior contiene los temas principales, mientras que el panel derecho contiene los subtemas del tema que seleccionaste.'
+        });
+
+    }
 
     return (
 
@@ -14,6 +27,7 @@ const NavSubtopics = ({subtopics}) => {
                     <NavButton key={item.route} to={item.route} title={item.title} color="green-500" hoverColor="green-700" textColor="green-50"/>
                 ))
             }
+            <IconButton icon="help" title="Ver ayuda" bgColor="bg-yellow-600" hoverColor="bg-yellow-800" textColor="text-white" onClick={showAlert}/>
         </div>
 
     )

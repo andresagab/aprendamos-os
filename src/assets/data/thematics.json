@@ -2,7 +2,7 @@
     {
         "id": "1",
         "slug": "so-pc",
-        "img": "so_pc_main.jpeg",
+        "img": "so_pc_general.jpeg",
         "title": "SO de Escritorio",
         "long_title": "Sistemas Operativos de Escritorio",
         "description": "Id proident officia enim pariatur fugiat do qui excepteur ipsum minim. Labore occaecat nisi culpa do cupidatat ut incididunt proident cillum nulla ullamco anim officia. Duis ex est culpa elit proident eu occaecat qui ad eiusmod amet esse. Aliquip eu nisi pariatur eiusmod magna ut labore et in tempor. Est dolor tempor elit reprehenderit do amet nostrud eiusmod anim ad dolor. Nostrud aliquip ipsum mollit ullamco duis consectetur duis occaecat adipisicing duis in nostrud elit.",
@@ -157,7 +157,7 @@
     {
         "id": "5",
         "slug": "so-movil",
-        "img": "so_movil_main.jpeg",
+        "img": "so_movil_general.jpeg",
         "title": "SO de Móviles",
         "long_title": "Sistemas Operativos de Dispositivos Móviles",
         "description": "Id proident officia enim pariatur fugiat do qui excepteur ipsum minim. Labore occaecat nisi culpa do cupidatat ut incididunt proident cillum nulla ullamco anim officia. Duis ex est culpa elit proident eu occaecat qui ad eiusmod amet esse. Aliquip eu nisi pariatur eiusmod magna ut labore et in tempor. Est dolor tempor elit reprehenderit do amet nostrud eiusmod anim ad dolor. Nostrud aliquip ipsum mollit ullamco duis consectetur duis occaecat adipisicing duis in nostrud elit.",

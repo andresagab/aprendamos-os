@@ -28,7 +28,7 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
             <div className="w-full h-full">
 
                 <div className="w-full h-1/3 max-h-full mb-8 relative rounded-md">
-                    <img className="absolute object-cover w-full h-full rounded-md" src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="" />
+                    <img className="absolute object-cover object-center w-full h-full rounded-md" src={require("./../../../assets/img/material/" + thematic.img).default} alt="" />
                     <div className="absolute w-full h-full bg-gradient-to-t from-black opacity-90"></div>
                     <div className="absolute bottom-0 left-0 p-4 2xl:space-y-2 flex flex-col w-full">
                         <h3 className="m-auto font-semibold text-2xl lg:text-4xl 2xl:text-5xl text-white">{thematic.long_title}</h3>
