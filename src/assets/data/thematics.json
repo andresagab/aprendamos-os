@@ -25,7 +25,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
+                        "description": "Imagen para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
                         "type": 1,
                         "resource_path": "so_pc_concepto.jpeg"
                     },
@@ -77,7 +77,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
+                        "description": "Imagen para conocer más sobre los elementos básicos de sistemas operativos de Escritorio",
                         "type": 1,
                         "resource_path": "so_pc_elementos.jpeg"
                     },
@@ -133,7 +133,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Escritorio",
+                        "description": "Imagen para profundizar sobre los ejemplos de Sistemas Operativos de Escritorio",
                         "type": 1,
                         "resource_path": "so_pc_ejemplos.jpg"
                     },
@@ -180,7 +180,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Infografía para conocer más sobre el concepto de Sistemas Operativos de Dispositivos Móviles",
+                        "description": "Imagen para conocer más sobre el concepto de Sistemas Operativos de Dispositivos Móviles",
                         "type": 1,
                         "resource_path": "so_movil_concepto.jpeg"
                     },
@@ -232,7 +232,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Nisi magna voluptate est ullamco veniam reprehenderit cupidatat et velit ad do occaecat.",
+                        "description": "Imagen para profundizar en los elementos básicos de los sistemas operativos de dispositivos móviles",
                         "type": 1,
                         "resource_path": "so_movil_elementos.jpeg"
                     },
@@ -288,7 +288,7 @@
                 "resources": [
                     {
                         "name": "Poster",
-                        "description": "Esse pariatur qui ad irure est magna excepteur culpa officia adipisicing sit cillum cillum.",
+                        "description": "Imagen para profundizar en los ejemplos de los sistemas operativos de dispositivos móviles",
                         "type": 1,
                         "resource_path": "so_movil_ejemplos.jpg"
                     },

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // assets
-import imgBackground from "../../assets/img/main/home-background.jpg";
+import imgBackground from "../../assets/img/main/main_image.jpeg";
 
 class Home extends React.Component {
     render() {
