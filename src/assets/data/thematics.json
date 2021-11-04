@@ -195,7 +195,8 @@
                     "title": "Preguntas Rápidas sobre Sistemas Operativos de Dispositivos Móviles",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_movil/concepto_a/index.html"
                 }
             },
             {
@@ -246,7 +247,8 @@
                     "title": "Est ipsum ad cupidatat culpa consectetur adipisicing amet ullamco occaecat ad eiusmod enim.",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_movil/elementos_a/index.html"
                 }
             },
             {
@@ -301,7 +303,8 @@
                     "title": "Preguntas Rápidas sobre ejemplos de SO de Dispositivos Móviles",
                     "status": true,
                     "description": "Para la siguiente actividad lee con cuidado cada pregunta y selecciona la respuesta correcta",
-                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5"
+                    "url": "https://wordwall.net/embed/49158b98911349179e1cbb9a1f7465f4?themeId=1&templateId=5",
+                    "path": "so_movil/ejemplos_a/index.html"
                 }
             }
         ]
