@@ -60,10 +60,10 @@ const SubtopicSlider = ({subtopic, thematic}) => {
             <SubtopicImage resource={subtopic.resources[0]} show={showImage}/>
             <SubtopicActivity activity={subtopic.activity} show={showActivity}/>
             <div className="absolute bottom-0 pb-4 w-full flex flex-row items-center justify-center space-x-2">
-                <IconButton onClick={() => showElement('theory')} icon="description" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Explicación"/>
-                <IconButton onClick={() => showElement('image')} icon="image" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver Imagen Descriptiva"/>
-                <IconButton onClick={() => showElement('activity')} icon="task" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Abrir Actividad"/>
-                <IconButton onClick={showAlert} icon="help" bgColor="bg-indigo-500" hoverColor="bg-indigo-700" textColor="text-indigo-50" title="Ver ayuda"/>
+                <IconButton onClick={() => showElement('theory')} icon="description"  title="Ver Explicación" className="material-icons rounded-full w-min p-1 text-1xl bg-purple-600 text-white hover:bg-purple-900 hover:shadow hover:-rotate-45 transform transition duration-300 ease-in select-none"/>
+                <IconButton onClick={() => showElement('image')} icon="image" title="Ver Imagen Descriptiva" className="material-icons rounded-full w-min p-1 text-1xl bg-purple-600 text-white hover:bg-purple-900 hover:shadow hover:-rotate-45 transform transition duration-300 ease-in select-none"/>
+                <IconButton onClick={() => showElement('activity')} icon="task" title="Abrir Actividad" className="material-icons rounded-full w-min p-1 text-1xl bg-purple-600 text-white hover:bg-purple-900 hover:shadow hover:-rotate-45 transform transition duration-300 ease-in select-none"/>
+                <IconButton onClick={showAlert} icon="help" title="Ver ayuda" className="material-icons rounded-full w-min p-1 text-1xl bg-purple-600 text-white hover:bg-purple-900 hover:shadow hover:-rotate-45 transform transition duration-300 ease-in select-none"/>
             </div>
         </div>
 

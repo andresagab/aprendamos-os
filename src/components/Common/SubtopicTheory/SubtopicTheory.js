@@ -32,7 +32,7 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
                 <div className="w-full h-1/3 max-h-full mb-8 relative rounded-md">
                     <img className="absolute object-cover object-center w-full h-full rounded-md" src={require("./../../../assets/img/material/" + thematic.img).default} alt="" />
                     <div className="absolute w-full h-full bg-gradient-to-t from-black opacity-90"></div>
-                    <HelpButton className="absolute top-1 left-2 rounded-full w-min material-icons text-2xl text-white hover:text-yellow-500 transition duration-300 ease-in select-none" materialIcon="help" title="Ayuda de Audio" message="Haz click sobre el botón de play para reproducir el texto, recuerda pausarlo o denerlo antes de cambiar de sección." modalIcon="info"/>
+                    <HelpButton className="absolute top-1 left-2 rounded-full w-min material-icons text-2xl text-white hover:text-yellow-500 hover:-rotate-45 transform transition duration-300 ease-in select-none" materialIcon="help" title="Ayuda de Audio" message="Haz click sobre el botón de play para reproducir el texto, recuerda pausarlo o denerlo antes de cambiar de sección." modalIcon="info"/>
                     <div className="absolute bottom-0 left-0 p-4 2xl:space-y-2 flex flex-col w-full">
                         <h3 className="m-auto font-semibold text-2xl lg:text-4xl 2xl:text-5xl text-white">{thematic.long_title}</h3>
                         <h3 className="m-auto font-normal text-xl lg:text-2xl 2xl:text-3xl text-white">{subtopic.title}</h3>
