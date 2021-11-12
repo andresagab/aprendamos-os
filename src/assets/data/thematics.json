@@ -21,7 +21,7 @@
                 "items_explanation": [],
                 "route": "/so-pc/concepto",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_pc_concepto.mp4",
                 "resources": [
                     {
                         "name": "Poster",
@@ -73,7 +73,7 @@
                 ],
                 "route": "/so-pc/elementos-basicos",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_pc_elementos.mp4",
                 "resources": [
                     {
                         "name": "Poster",
@@ -129,7 +129,7 @@
                 ],
                 "route": "/so-pc/ejemplos",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_pc_ejemplos.mp4",
                 "resources": [
                     {
                         "name": "Poster",
@@ -176,7 +176,7 @@
                 "items_explanation": [],
                 "route": "/so-movil/concepto",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_movil_concepto.mp4",
                 "resources": [
                     {
                         "name": "Poster",
@@ -228,7 +228,7 @@
                 ],
                 "route": "/so-movil/elementos-basicos",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_movil_elementos.mp4",
                 "resources": [
                     {
                         "name": "Poster",
@@ -284,7 +284,7 @@
                 ],
                 "route": "/so-movil/ejemplos",
                 "status": true,
-                "audio_path": "",
+                "audio_path": "so_movil_ejemplos.mp4",
                 "resources": [
                     {
                         "name": "Poster",

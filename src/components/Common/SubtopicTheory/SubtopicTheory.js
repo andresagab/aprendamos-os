@@ -1,4 +1,5 @@
 import React from "react";
+import SubtopicAudioplayer from "../SubtopicAudioplayer/SubtopicAudioplayer";
 
 const SubtopicTheory = ({subtopic, thematic, show}) => {
 
@@ -9,7 +10,7 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
             <div className="w-full flex flex-col space-y-0 items-start">
                 {
                     subtopic.items_explanation.map((item) => 
-                        <ul className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none">
+                        <ul className="w-full px-2 rounded-md border-l-2 border-white hover:border-yellow-500 hover:bg-yellow-200 hover:shadow transition duration-300 ease select-none" key={"ie_" + item.title}>
                             <li className="inline-flex items-center space-x-2 font-normal text-sm md:text-md 2xl:text-lg">
                                 <span className="text-xl text-yellow-900">&bull;</span>
                                 <span>{item.title}</span>
@@ -33,6 +34,9 @@ const SubtopicTheory = ({subtopic, thematic, show}) => {
                     <div className="absolute bottom-0 left-0 p-4 2xl:space-y-2 flex flex-col w-full">
                         <h3 className="m-auto font-semibold text-2xl lg:text-4xl 2xl:text-5xl text-white">{thematic.long_title}</h3>
                         <h3 className="m-auto font-normal text-xl lg:text-2xl 2xl:text-3xl text-white">{subtopic.title}</h3>
+                        <div className="m-auto pt-2">
+                            <SubtopicAudioplayer audioPath={subtopic.audio_path}/>
+                        </div>
                     </div>
                 </div>
 
