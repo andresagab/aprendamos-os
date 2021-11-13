@@ -1,12 +1,13 @@
 import React from "react";
 
 // components
-
-// assets
 import dataAuthors from "../../assets/data/authors.json";
 import dataCollaborators from "../../assets/data/collaborators.json";
 import AppInfo from "../Common/AppInfo/AppInfo";
 import Creators from "../Common/Creators/Creators";
+
+// assets
+import ayudaPDF from "./../../assets/others/AprendamosDeSo-Ayuda.pdf";
 
 const AboutOf = () =>
 {
@@ -35,11 +36,11 @@ const AboutOf = () =>
                     <Creators title="Colaboradores" description="Magna cillum magna nostrud voluptate Lorem pariatur nisi quis exercitation ut duis commodo. Qui Lorem excepteur reprehenderit culpa ad nostrud incididunt. Laborum in aliqua anim commodo anim voluptate enim et occaecat qui pariatur elit duis consequat." creatorsData={collaborators}/>
 
                     {/* help info */}
-                    {/*<div className="flex-shrink flex flex-row items-center space-x-2 w-full h-max bg-white rounded-lg p-4">
+                    <div className="flex-shrink flex flex-row items-center space-x-2 w-full h-max bg-white rounded-lg p-4">
                         <span className="flex-shrink material-icons text-purple-700">help</span>
                         <span className="flex-grow font-semibold">Ayuda</span>
-                        <button className="flex-shrink px-4 py-0 rounded-full text-purple-700 hover:bg-purple-700 hover:text-purple-50 hover:shadow transition duration-300 ease select-none">Abrir</button>
-                    </div>*/}
+                        <a href={ayudaPDF} target="_blank" className="flex-shrink px-4 py-0 rounded-full text-purple-700 hover:bg-purple-700 hover:text-purple-50 hover:shadow transition duration-300 ease select-none">Abrir</a>
+                    </div>
 
                     {/* help info */}
                     <div className="flex-grow w-full h-full bg-white rounded-lg p-4">
