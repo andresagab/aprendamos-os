@@ -42,7 +42,7 @@ const Router = () => {
                     ))
                 }
                 {/* about of */}
-                {/*<NavButton exact to="/evaluacion" title="Evaluación"/>*/}
+                <NavButton exact to="/evaluacion" title="Evaluación"/>
                 <NavButton to="/acerca-de" title="Acerca de"/>
 
             </nav>
@@ -56,7 +56,7 @@ const Router = () => {
 
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/acerca-de" component={AboutOf} />
-                    {/*<Route exact path="/evaluacion" component={Evaluation} />*/}
+                    <Route exact path="/evaluacion" component={Evaluation} />
                     {/* loop to define routes to each thematic */}
                     {
                         thematics.map((item) => (
